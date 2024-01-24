@@ -25,7 +25,11 @@ module.exports = {
       name: '🚀 chore:    构建/工程依赖/工具',
     },
   ],
-  scopes: [{ name: 'routing' }, { name: 'create project' }],
+  scopes: [
+    { name: 'feature' },
+    { name: 'routing' },
+    { name: 'create project' },
+  ],
   messages: {
     type: '请选择提交类型(必填)',
     customScope: '请输入文件修改范围(可选)',
