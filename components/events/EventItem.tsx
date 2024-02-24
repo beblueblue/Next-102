@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
-import { Event } from '../../dummy-data';
+import { Event } from '@/dummy-data';
+
 import { Button } from '../ui';
 import { AddressIcon, ArrowRightIcon, DateIcon } from '../icons';
 import styles from './EventItem.module.css';

@@ -26,8 +26,8 @@ module.exports = {
     },
   ],
   scopes: [
-    { name: 'styling' },
     { name: 'feature' },
+    { name: 'styling' },
     { name: 'routing' },
     { name: 'create project' },
   ],

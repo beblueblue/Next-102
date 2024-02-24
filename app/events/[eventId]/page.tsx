@@ -1,9 +1,9 @@
-import { getEventById } from '../../../dummy-data';
+import { getEventById } from '@/dummy-data';
 import {
   EventSummary,
   EventLogistics,
   EventContent,
-} from '../../../components/event-detail';
+} from '@/components/event-detail';
 
 export default function EventDetailPage({
   params,
